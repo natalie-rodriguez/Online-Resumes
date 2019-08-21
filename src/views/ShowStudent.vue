@@ -1,6 +1,7 @@
 <template>
   <div class="show">
     <h1>{{ message }}</h1>
+      <router-link v-bind:to="'localhost:8080/' + student.id">View this Student's PDF</router-link>
       <h2> Name: {{student.first_name + " " + student.last_name}}</h2>
       <p> Phone Number: {{student.phone_number}}</p>
       <p> Email: {{student.email}}</p>
