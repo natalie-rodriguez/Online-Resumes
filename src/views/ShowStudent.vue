@@ -26,9 +26,6 @@
       <p>End Date: {{education.end_date}}</p>
       <p>Details: {{education.details}}</p>
       <h2>Skills: {{skill.name}}</h2>
-   <!--    <p> GitHub: {{student.github_url}}</p>
-      <p> GitHub: {{student.github_url}}</p>
-      <p> GitHub: {{student.github_url}}</p> -->
       <img v-bind:src="student.photo" v-bind:alt="student.first_name"/>
   </div>
 </template>
