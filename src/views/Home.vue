@@ -3,7 +3,7 @@
     <h1>{{ message }}</h1>
     <div v-for="student in students">
       <h2> Name: {{student.first_name + " " + student.last_name}}</h2>
-      <p><router-link v-bind:to="'/students/' + student.id">View this Student</router-link></p>
+      <p><router-link v-bind:to="'/students/' + student.id">View this Student's Resume</router-link></p>
       <hr>
     </div>
     
